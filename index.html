@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="script.js">
+    <title>Sandeep Kumar</title>
+</head>
+
+<body>
+    <div class="site-main-wrapper">
+        <button class="hamberger">
+            <img src="./images/hamberger.svg" alt="">
+        </button>
+        <div class="mobile-nav ">
+            <button class="times"> <img src="./images/times.svg" alt=""> </button>
+            <ul>
+                <img src="./images/sitelogo.jpg" alt="">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#">See
+                        Resume</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </div>
+        <header>
+            <div class="container">
+                <nav id="main-nav" class="flex items-center justify-between">
+                    <div class="left-side flex items-center">
+                        <div class="title">
+                            <img src="./images/sitelogo.jpg" alt="">
+                        </div>
+                        <div class="navbar">
+                            <a href="/">Home</a>
+                            <a href="#about">About Me</a>
+                            <a href="#skills">Skills</a>
+                            <a href="#projects">Projects</a>
+                            <a href="#blogs">Blogs</a>
+                            <a href="https://drive.google.com/file/d/1_ibbJTlTkk3i36dObW2mel-NT4kMtwt6/view?usp=sharing"
+                                target="_blank">See
+                                Resume</a>
+                            <a href="#contact">Contact Me</a>
+                        </div>
+                    </div>
+                    <div class="theme">
+                        <input type="checkbox" class="checkbox" id="chk" />
+                        <label class="label" for="chk">
+                            <i class="fas fa-moon"></i>
+                            <i class="fas fa-sun"></i>
+                            <div class="ball"></div>
+                        </label>
+                    </div>
+                </nav>
+                <div class="hero">
+                    <div class="hello  items-center">
+                        <p> <strong>Hello Visitors!</strong>
+                            <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif"
+                                width="50px">
+                        </p>
+                        <h4>I am <span>Sandeep Kumar</span></h4>
+                        <div id="typed-strings">
+                            <p>I am a Full Stack Web Developer.</p>
+                            <p>I am a Software Developer Enthusiast.</p>
+                            <p>I am a Designer.</p>
+                            <p>I am a Cricket Player.</p>
+                        </div>
+                        <span id="typed"></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section id="about" class="about">
+            <div class="container flex items-center">
+                <div class="flex-1">
+                    <img class="about-me-img" src="./images/aboutphoto.jpg" alt="">
+                </div>
+                <div class="flex-1">
+                    <h1>About <span>Me</span></h1>
+                    <h3 data-aos="fade-down">I'm Sandeep Kumar</h3>
+                    <p>
+                        I'm From <span>Kanpur, Uttar-Pradesh , India</span>. Currently I Am Pursuing My B.Tech In<span>
+                            Chemical Engineering
+                            (CHE)</span> From <span>Dr. B. R. Ambedkar National Institute Of Technology,
+                            Jalandhar</span>. I
+                        am Passionate about
+                        <span>MERN</span> Stack Web Development And <span>DSA</span> , goal is to achieve a good
+                        position
+                        by doing satisfying work
+                        in the IT field.To View More Details Regarding Me,
+                        Visit At My <span>Social Profiles</span>.
+                        <br><span>Always welcoming new opportunities !</span>
+                    </p>
+                    <div class="social">
+                        <a href="https://www.facebook.com/sandeepk5484" target="_blank">
+                            <i class="fa fa-2x fa-facebook"></i>
+                        </a>
+                        <a href="https://twitter.com/imsandiip" target="_blank">
+                            <i class="fa fa-2x fa-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/sandeep5484_" target="_blank">
+                            <i class="fa fa-2x fa-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/kumar-sandeep7" target="_blank">
+                            <i class="fa fa-2x fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <img width="100%" height="2" src="./images/line.png" />
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-heading" data-aos="flip-right">◆ My Skills ◆</h2>
+                <div class="skillContainer">
+                    <div class="skillitem" data-aos="fade-up-left">
+                        <img src="./images/icons/html.svg" alt="">
+                        <p>HTML</p>
+                        <div class="skill">
+                            <div class="skill s1"></div>
+                        </div>
+                    </div>
+                    <div class="skillitem" data-aos="fade-up-right">
+                        <img src="./images/icons/css.svg" alt="">
+                        <p>CSS</p>
+                        <div class="skill">
+                            <div class="skill s2"></div>
+                        </div>
+                    </div>
+                    <div class="skillitem" data-aos="fade-up-left">
+                        <img src="./images/icons/javascript.svg" alt="">
+                        <p>JAVASCRIPT</p>
+                        <div class="skill">
+                            <div class="skill s3"></div>
+                        </div>
+                    </div>
+                    <div class="skillitem" data-aos="fade-up-right">
+                        <img src="./images/icons/bootstrap.svg" alt="">
+                        <p>BOOTSTRAP</p>
+                        <div class="skill">
+                            <div class="skill s4"></div>
+                        </div>
+                    </div>
+                    <div class="skillitem" data-aos="fade-up-left">
+                        <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png" alt="">
+                        <p>C++ LANG.</p>
+                        <div class="skill">
+                            <div class="skill s5"></div>
+                        </div>
+                    </div>
+                    <div class="skillitem" data-aos="fade-up-right">
+                        <img src="./images/icons/nodejs.svg" alt="">
+                        <p>NODE.JS</p>
+                        <div class="skill">
+                            <div class="skill s6"></div>
+                        </div>
+                    </div>
+                    <div class="skillitem" data-aos="fade-up-left">
+                        <img src="./images/icons/git.svg" alt="">
+                        <p>GIT</p>
+                        <div class="skill">
+                            <div class="skill s7"></div>
+                        </div>
+                    </div>
+                    <div class="skillitem" data-aos="fade-up-right">
+                        <img src="./images/icons/npm.svg" alt="">
+                        <p>NPM</p>
+                        <div class="skill">
+                            <div class="skill s8"></div>
+                        </div>
+                    </div>
+                    <div class="skillitem" data-aos="fade-up-left">
+                        <img src="https://img.icons8.com/color/48/000000/c-programming.png" alt="">
+                        <p>C LANG.</p>
+                        <div class="skill">
+                            <div class="skill s9"></div>
+                        </div>
+                    </div>
+                    <div class="skillitem" data-aos="fade-up-right">
+                        <img src="./images/icons/mongodb.svg" alt="">
+                        <p>MONGODB</p>
+                        <div class="skill">
+                            <div class="skill s10"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-heading" data-aos="flip-right">◆ My Projects ◆</h2>
+                <div class="projectContainer">
+                    <div class="row">
+                        <div class="row-left">
+                            <div class="left items-center">
+                                <h3 data-aos="fade-down" data-aos-duration="1500">BlogTemplate</h3>
+                                <p data-aos="zoom-in-up">A living network of curious minds. iBlog(innovative Blog) is a
+                                    website where bloggers can
+                                    write, publish, and promote their stories to a vast audience.</p>
+                                <div class="block-center">
+
+                                    <a href="https://github.com/Sandeep5484/ResponsiveBlogTemplate">
+                                        <img src="./images/github.svg" alt="">
+                                    </a>
+                                    <a href="https://fantastic-snickerdoodle-7a7516.netlify.app" target="_blank">
+                                        <button class="click">See Project</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row-right">
+                            <div class="img">
+                                <img data-aos="fade-up-right" src="./images/animatedwebimg.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="row-right">
+                            <div class="img">
+                                <img data-aos="fade-down-right" src="./images/dragongameimg.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="row-left">
+                            <div class="left items-center">
+                                <h3 data-aos="fade-up" data-aos-duration="1000">DragonGame</h3>
+                                <p data-aos="zoom-in">This is Dragon Game build by using Js . You will enjoy Playing
+                                    this
+                                    and Score high.</p>
+                                <div class="block-center">
+
+                                    <a href="https://github.com/Sandeep5484/Dragon-Game">
+                                        <img src="./images/github.svg" alt="">
+                                    </a>
+                                    <a href="https://rad-basbousa-8bb816.netlify.app" target="_blank">
+                                        <button class="click">See Project</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="row-left">
+                            <div class="left items-center">
+                                <h3 data-aos="fade-down" data-aos-duration="1500">Animated-web-project</h3>
+                                <p data-aos="zoom-in-up">I developed an Animated Website that represents India . You can
+                                    read about Indian cultural diversity in my blog and see lot of Beautiful Indian
+                                    Monuments.</p>
+                                <div class="block-center">
+                                    <a href="https://github.com/Sandeep5484/Animated-web-project">
+                                        <img src="./images/github.svg" alt="">
+                                    </a>
+                                    <a href="https://euphonious-creponne-53519f.netlify.app/" target="_blank">
+                                        <button class="click">See Project</button>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row-right">
+                            <div class="img">
+                                <img data-aos="fade-up-right" src="./images/tajmahal.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="row-right">
+                            <div class="img">
+                                <img data-aos="fade-up-left" src="./images/tic-tac-toe-img.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="row-left">
+                            <div class="left items-center">
+                                <h3 data-aos="fade-right" data-aos-duration="1500">Tic-Tac-Toe</h3>
+                                <p data-aos="zoom-in-down">This is a simple tic tac toe game with cross and zero sign
+                                    and
+                                    some special sound
+                                    effects.</p>
+                                <div class="block-center">
+
+                                    <a href="https://github.com/Sandeep5484/Tic-Tac-Toe-Game">
+                                        <img src="./images/github.svg" alt="">
+                                    </a>
+                                    <a href="https://sensational-crisp-24a129.netlify.app" target="_blank">
+                                        <button class="click">See Project</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <h5 class="text-center">
+                    <a href="https://github.com/Sandeep5484">
+                        <button class="btn btn-primary" data-aos="fade-right" data-aos-offset="100"
+                            data-aos-easing="ease-in-sine">More Projects</button>
+                    </a>
+                </h5>
+                <hr>
+            </div>
+        </section>
+        <section id="blogs" class="blogs">
+            <div class="container">
+                <h2 class="section-heading" data-aos="flip-right">◆ <span>My</span> Blogs ◆ </h2>
+                <p data-aos="fade-down" data-aos-duration="1000">I write articles on current and Interesting Technicals
+                    Topics to spread knowledge.</p>
+                <div class="blogContainer">
+                    <div class="card" data-aos="zoom-in-up" data-aos-duration="1000">
+                        <div class="img-wrapper">
+                            <img src="./images/article-ph-1.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>First blog will be here</h1>
+                            </a>
+                            <span> 14 Jan, 2021</span>
+                            <p>This Is A Blog Which Focuses On Importance Of Components Used In Fron End Web
+                                Development.
+                            </p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card" data-aos="zoom-in-down" data-aos-duration="1000">
+                        <div class="img-wrapper">
+                            <img src="./images/article-ph-2.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>Second blog will be here</h1>
+                            </a>
+                            <span> 14 Jan, 2021</span>
+                            <p>This Is A Blog Which Focuses On Importance Of Components Used In Fron End Web
+                                Development.
+                            </p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card" data-aos="zoom-in-up" data-aos-duration="1000">
+                        <div class="img-wrapper">
+                            <img src="./images/article-ph-3.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>Third blog will be here</h1>
+                            </a>
+                            <span> 14 Jan, 2021</span>
+                            <p>This Is A Blog Which Focuses On Importance Of Components Used In Fron End Web
+                                Development.
+                            </p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-heading" data-aos="flip-right">◆ Contact <span>Me</span> ◆</h2>
+                <div class="contactContainer">
+                    <div class="contact-left" data-aos="fade-right" data-aos-duration="1000">
+                        <h3 class="con-title">Feel free To Contact Me</h3>
+                        <p class="con-text">
+                            Hello Everyone! Have a great day :) I am here to help you. If you want to know something or
+                            you
+                            have any suggestion then please reach out to me.
+                            Thank You.
+                        </p>
+                        <ul class="con-list">
+                            <li class="flex"><img src="https://img.icons8.com/ios-glyphs/60/000000/map--v1.png" />
+                                <i class="address">Kanpur, Uttar-Pradesh, India</i>
+                            </li>
+                            <li class="flex"><img src="https://img.icons8.com/ios-filled/50/000000/apple-mail.png" />
+                                <i class="envelope">sandeep2017iit@gmail.com </i>
+                            </li>
+                            <li class="flex"><img
+                                    src="https://img.icons8.com/ios-filled/50/000000/phonelink-ring--v1.png" /><i
+                                    class="envelope"> +91 7233994264 </i>
+                            </li>
+                            <li class="flex"><img
+                                    src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/64/000000/external-internet-seo-and-media-flatart-icons-flat-flatarticons.png" />
+                                <i class="earth">www.sandeepkumar.tech </i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="contact-right" data-aos="fade-down" data-aos-duration="1000">
+                        <div class="form">
+                            <form name="contact-form">
+                                <p>
+                                    <span class="name-bg">Name*</span>
+                                </p>
+                                <input class="contact-form-name" id="ContactForm1_contact-form-name" name="name"
+                                    size="30" type="text" value="">
+                                <br>
+                                <p>
+                                    <span class="email-bg">Email*</span>
+
+                                </p>
+                                <input class="contact-form-email" id="ContactForm1_contact-form-email" name="email"
+                                    size="30" type="text" value="">
+                                <br>
+                                <p>
+                                    <span class="message-bg">Message*</span>
+
+                                </p>
+                                <textarea class="contact-form-email-message" cols="31"
+                                    id="ContactForm1_contact-form-email-message" name="email-message"
+                                    rows="5"></textarea>
+                                <br>
+                                <button class="btn  btn-1 btn-primary">Send </button>
+                                <button class="btn btn-2 btn-primary">Clear</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer">
+                <div class="UpSign">
+                    <img
+                        src="https://img.icons8.com/external-kmg-design-flat-kmg-design/32/000000/external-upward-arrow-kmg-design-flat-kmg-design.png" />
+                </div>
+                <div class=" flex content items-center">
+                    <div class="leftSpan">
+                        <span href="https://www.linkedin.com/in/kumar-sandeep7/"> <a href="/">Disclaimer</a></span>
+                    </div>
+                    <div class="creator">
+                        <a href="https://www.linkedin.com/in/kumar-sandeep7/">Developed with ❤️ By &copy; <span>Sandeep
+                                Kumar</span> @2022</a>
+                    </div>
+                    <div class="rightSpan">
+                        <span href="https://www.linkedin.com/in/kumar-sandeep7/"><a href="/">Privacy Policy</a></span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

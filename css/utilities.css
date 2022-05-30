@@ -1,0 +1,46 @@
+.flex{
+    display: flex;
+}
+
+.items-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.btn{
+    margin-top: 2rem;
+    padding: 0.8rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 1.0rem;
+    font-weight: 600;
+    border: 0.125rem solid transparent;
+    outline: none;
+    cursor: pointer;
+    justify-content: space-between;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    transition: all 0.3s ease;
+}
+.btn-1{
+    margin-right: 0.7rem;
+}
+.btn-2{
+    margin-left: 0.7rem;
+}
+.btn-primary{
+    background: var(--primary);
+}
+.btn-primary:hover{
+background: transparent;
+border-color: var(--primary);
+color: var(--primary);
+}
+.flex-1{
+    flex: 1;
+}
+
+.block-center{
+    display:flex;
+    margin-top: 0.5rem;
+}
