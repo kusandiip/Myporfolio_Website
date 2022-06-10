@@ -437,7 +437,7 @@ h5 {
 section.blogs {
     background-color: var(--dark);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 87%, 0 100%);
-    padding-bottom: 18rem;
+    padding-bottom: 10rem;
 }
 
 section.blogs .section-heading {
@@ -741,9 +741,9 @@ section.contact {
     .footer{
         height: 11rem;
     }
-    .flex{
-        flex-direction: column;
+    .footer .flex{
         text-align: center;
+        flex-direction: column;
     }
     .footer .content .leftSpan{
         margin-right: 0;
@@ -759,7 +759,7 @@ section.contact {
     }
     .contactContainer{
         flex-direction: column;
-    }
+    } 
 }
 @media (max-width:576px){
     .container{
@@ -770,12 +770,13 @@ section.contact {
     }
     .contact-right{
         margin: 0;
+        padding: 2.5rem 1.5rem 1.5rem;
     }
     section.blogs .blogContainer{
         grid-template-columns: repeat(1, 1fr);
     }
     section.blogs {
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 71% 95%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 71% 97%, 0 100%);
     }
     footer{
         font-size: 1rem;
@@ -785,5 +786,11 @@ section.contact {
     }
     .skillContainer{
         grid-template-columns: repeat(2, minmax(5.5rem, 1fr));
+    }
+    header{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 89%, 0 100%);
+    }
+    section.blogs {        
+        padding-bottom: 5rem;
     }
 }
