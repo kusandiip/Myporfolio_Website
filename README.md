@@ -1,7 +1,8 @@
-# myporfolio
+# Myporfolio_Website
 
 
-An animated website represents me .It contains code my my main portfolio website. What I did till now is shown in this website and many more.
+
+Welcome to my portfolio! This website serves as a dynamic representation of my journey, code, and accomplishments in the world of software engineering.
 
 
-Deployed Link- https://creative-fox-bcc28a.netlify.app
+Deployed Link- https://kusandeep.netlify.app
